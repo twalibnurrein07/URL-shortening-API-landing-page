@@ -1,0 +1,159 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.container {
+  width: 900px !important;
+}
+h5 {
+  margin-top: 20px !important;
+}
+h4 {
+  padding-bottom: 20px;
+}
+p {
+  font-weight: 500px;
+  color: hsl(0, 0%, 75%);
+}
+hr {
+  height: 10px !important;
+  margin: 3rem !important;
+  background-color: hsl(128, 66%, 49%);
+}
+
+.btn {
+  border-radius: 25px !important;
+}
+.btn-primary {
+  border-radius: 12px !important;
+}
+/* section one */
+#section1 {
+  background-color: white;
+}
+.NAVBAR {
+  padding: 30px;
+}
+.navbar-toggler {
+  background-color: hsl(0, 0%, 75%) !important;
+}
+.illustration {
+  float: right;
+  width: 420px;
+  height: 239px;
+  margin-bottom: 20px;
+}
+.content {
+  padding: 40px;
+  padding-right: 80px;
+  margin-bottom: 40px;
+  width: 45%;
+}
+.form {
+  width: 50%;
+  padding: 19px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: hsl(257, 27%, 26%);
+  position: absolute;
+  left: 280px;
+  bottom: 136px;
+  border-radius: 12px;
+}
+nav {
+  background-color: white !important;
+}
+a {
+  color: hsl(0, 0%, 75%) !important;
+}
+
+/* section two */
+#section2 .container {
+  background-color: hsl(0, 0%, 75%);
+  padding: 20px;
+}
+.statistics {
+  text-align: center;
+  margin: 100px;
+  width: 43%;
+  position: relative;
+  left: 160px;
+}
+
+.reviews {
+  padding-bottom: 50px;
+  text-align: center;
+}
+.row.cards {
+  width: 100%;
+  padding-left: 13px;
+}
+
+.brand {
+  position: absolute;
+  bottom: 20px;
+}
+.customize {
+  position: absolute;
+  bottom: -27px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: hsl(260, 8%, 14%);
+  position: absolute;
+  bottom: 185px;
+}
+.branding {
+}
+.detailed-records {
+}
+.fully-customizable {
+}
+.instagram {
+}
+.pic {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 7px;
+}
+.records1,
+.customizable1 {
+  position: relative;
+  top: 9px;
+}
+/* section three */
+#section3 .container {
+  text-align: center;
+  padding: 40px;
+  background-image: url("./image/bg-boost-desktop.svg");
+  background-color: hsl(255, 11%, 22%);
+}
+.start h4 {
+  color: white;
+}
+/* section four */
+#section4 .container {
+  background-color: hsl(260, 8%, 14%);
+}
+#section4 h1 {
+  color: white;
+  padding-top: 20px;
+}
+#section4 h6 {
+  color: hsl(0, 0%, 75%);
+  padding-top: 20px;
+}
+ol {
+  padding-left: 0 !important;
+}
+a {
+  text-decoration: none !important;
+}
+.svg {
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
