@@ -51,8 +51,8 @@ hr {
 }
 .form {
   width: 50%;
-  padding: 19px;
-  padding-bottom: 0px;
+  padding: 10px;
+
   text-align: center;
   background-color: hsl(257, 27%, 26%);
   position: absolute;
@@ -143,11 +143,12 @@ a {
   padding-top: 20px;
 }
 #section4 h6 {
-  color: hsl(0, 0%, 75%);
+  color: white;
   padding-top: 20px;
 }
-ol {
+ul {
   padding-left: 0 !important;
+  list-style-type: none;
 }
 a {
   text-decoration: none !important;
@@ -156,4 +157,50 @@ a {
   padding: 20px;
   padding-left: 10px;
   padding-right: 10px;
+}
+@media only screen and (max-width: 545px) {
+  /* section 1 */
+  .container {
+    width: 300px !important;
+  }
+  .illustration {
+    float: none;
+    width: 300px;
+  }
+  .content {
+    text-align: center;
+    padding: 20px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .content .btn {
+    margin-bottom: 60px;
+  }
+  .form {
+    width: 50%;
+    padding: 19px;
+    text-align: center;
+    background-color: hsl(257, 27%, 26%);
+    position: absolute;
+    left: 100px;
+    bottom: -67px;
+    border-radius: 12px;
+  }
+
+  /* section two */
+  .statistics {
+    text-align: center;
+    margin: 100px;
+    margin-left: 0px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+  .statistics p {
+    color: white;
+  }
+  #section4 .container {
+    text-align: center;
+  }
 }
